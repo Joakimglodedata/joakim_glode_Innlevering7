@@ -27,6 +27,7 @@ h2 {
 p {
   font-size: 0.8em;
   color: var(--tert-clr);
+  max-width: 70%;
 }
 
 button {
@@ -85,6 +86,10 @@ header ul {
 }
 
 /* Body */
+
+.imgDiv {
+  justify-content: space-evenly;
+}
 
 #fishContainer {
   display: flex;
