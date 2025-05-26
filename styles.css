@@ -67,12 +67,7 @@ button:hover {
   width: 20%;
 }
 
-#fishContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  row-gap: 10px;  
-}
+
 /*Header*/
 header {
   background-color: var(--sec-clr);
@@ -90,9 +85,16 @@ header ul {
 }
 
 /* Body */
+
+#fishContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0px;  
+}
+
+
 .fish {
-  /* width: max-content; */
-  flex: 1;
   margin: 0;
 }
 

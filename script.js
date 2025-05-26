@@ -13,6 +13,7 @@ if (fishContainer != null) {
         const x = Math.floor(Math.random() * 10)
         fish.textContent = fishPossibilities[x];
         fish.style.fontSize = Math.floor((Math.random() * 100) + 20)+"px";
+        fish.style.width = fish.style.fontSize * 1.2;
         fishContainer.appendChild(fish.cloneNode(true));
      }
 }
