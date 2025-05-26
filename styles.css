@@ -5,6 +5,7 @@
   --tert-clr: hsl(from var(--prim-clr) h s calc(l - 10));
   --back-clr: hsl(205, 29%, 9%);
   --body-font: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Global attributes*/
@@ -12,7 +13,6 @@ body {
   font-family: var(--body-font);
   background-color: var(--back-clr);
   color: var(--prim-clr);
-  scroll-behavior: smooth;
   margin: 0;
 }
 
