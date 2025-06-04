@@ -14,6 +14,10 @@ if (fishContainer != null) {
         fish.textContent = fishPossibilities[x];
         fish.style.fontSize = Math.floor((Math.random() * 100) + 20)+"px";
         fish.style.width = fish.style.fontSize * 1.2;
+        fish.style.filter = "hue-rotate(" + Math.floor(Math.random() * 360) + "deg)";
         fishContainer.appendChild(fish.cloneNode(true));
+        console.log(fish.style.filter)
      }
 }
+
+// (Math.floor(Math.random() * 360)

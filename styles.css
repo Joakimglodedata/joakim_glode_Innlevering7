@@ -101,6 +101,7 @@ header ul {
 
 .fish {
   margin: 0;
+  filter: hue-rotate(50deg);
 }
 
 /*Footer*/
